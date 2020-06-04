@@ -1,4 +1,90 @@
-*{margin: 0 ;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+}
+
+header {
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+}
+
+.logo {
+  width: 60vw;
+}
+
+#header-img {
+  width: 20%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav ul li {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+
+#form p {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+#email {
+  max-width: 275px;
+  width: 100%;
+  margin-top: 25px;
+  padding: 5px;
+}
+
+#submit-btn {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: rgb(231, 245, 45);
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: rgb(163, 173, 17);
+}
+
+#information {
+  width: 100%;
+  margin: 0 auto;
 }
